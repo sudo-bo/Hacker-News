@@ -1,0 +1,50 @@
+/* Lists of stories */
+
+.stories-list {
+  margin: 20px 20px;
+  display: flex; /* create a single column layout */
+  flex-direction: column; /* stack list items in a column */
+}
+
+.stories-list > li {
+  color: gray;
+  font-size: 0.8rem;
+  margin: 10px 0;
+
+  /* display: flex; /* Use flexbox for list items */
+}
+
+#stories-loading-msg {
+  font-weight: bold;
+  font-size: 150%;
+  margin: 20px 30px;
+}
+
+/* Individual stories */
+
+.story-link {
+  color: black;
+  font-size: 0.85rem;
+  font-weight: normal;
+  margin: 18px 0;
+}
+
+.story-link:hover {
+  text-decoration: none;
+}
+
+.story-author {
+  margin-left: 0em;
+}
+
+.story-user {
+  display: block;
+}
+
+i.fas.fa-times {
+  font-size: 1.2em; /* Adjust the font size to make the icon larger */
+  margin-left: 0%;
+  padding-right: 10px;
+  padding-top: 7px;
+  color: rgba(255, 0, 0, 0.665);
+}
